@@ -7,6 +7,7 @@ mod pixel;
 pub mod psnr;
 pub mod psnr_hvs;
 pub mod ssim;
+pub mod vmaf;
 
 use crate::MetricsError;
 use std::error::Error;

@@ -11,7 +11,12 @@ repository = "https://github.com/rust-av/av-metrics"
 err-derive = "0.2.1"
 itertools = "0.8.1"
 lab = "0.7.2"
+lazy_static = "1"
+libc = "0.2"
 num-traits = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde-pickle = "0.5"
+#vmaf-sys = "0.0.9"
 y4m = { version = "0.4", optional = true }
 
 [dev-dependencies]
