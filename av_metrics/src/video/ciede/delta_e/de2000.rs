@@ -24,7 +24,7 @@ impl DE2000 {
     /// use delta_e::DE2000;
     /// use lab::Lab;
     ///
-    /// fn main() {
+    /// fn example_1() {
     ///     let color_1 = Lab {
     ///         l: 38.972,
     ///         a: 58.991,
